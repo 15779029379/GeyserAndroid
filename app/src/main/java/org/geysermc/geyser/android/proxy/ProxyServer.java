@@ -35,6 +35,7 @@ import com.nukkitx.protocol.bedrock.BedrockServerSession;
 import com.nukkitx.protocol.bedrock.v527.Bedrock_v527;
 import com.nukkitx.protocol.bedrock.v534.Bedrock_v534;
 import com.nukkitx.protocol.bedrock.v544.Bedrock_v544;
+import com.nukkitx.protocol.bedrock.v554.Bedrock_v554;
 
 import org.geysermc.geyser.android.R;
 import org.geysermc.geyser.android.utils.EventListeners;
@@ -54,8 +55,8 @@ import lombok.Getter;
 public class ProxyServer {
 
     public static final BedrockPacketCodec DEFAULT_BEDROCK_CODEC = Bedrock_v544.V544_CODEC.toBuilder()
-            .minecraftVersion("1.19.21")
-            .protocolVersion(545)
+            .minecraftVersion("1.19.30")
+            .protocolVersion(554)
             .build();
 
     private BedrockServer bdServer;
